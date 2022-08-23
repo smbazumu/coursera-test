@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+/*.container {
+	width: 767px;
+	font-family: "Helvetica", "Arial", sans-serif;
+}*/
+.paragraph-1 {
+	background-color: darkgrey;
+	width: 95%;
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-top: 0px;
+	align-content: center;
+}
+.paragraph-2 {
+	background-color: darkgrey;
+	width: 95%;
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-top: 0px;
+}
+.paragraph-3 {
+	background-color: darkgrey;
+	width: 95%;
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-top: 0px;
+}
+.paragraph-1 .paragraph-title {
+	float: right;
+	padding-top: 0;
+	padding-right: 0;
+	width: 195px;
+	background-color: lightpink;
+	text-align: center;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+.paragraph-2 .paragraph-title {
+	float: right;
+	padding-top: 0;
+	padding-right: 0;
+	width: 200px;
+	background-color: red;
+	text-align: center;
+	color: white;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+.paragraph-3 .paragraph-title {
+	float: right;
+	padding-top: 0;
+	padding-right: 0;
+	width: 190px;
+	background-color: lightyellow;
+	text-align: center;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+.paragraph-1 .paragraph {
+	clear: right;
+	padding: 10px;
+}
+.paragraph-2 .paragraph {
+	clear: right;
+	padding: 10px;
+}
+.paragraph-3 .paragraph {
+	clear: right;
+	padding: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.paragraph-1 {
+		width: 46%;
+		float: left;
+		margin-right: 13px;
+		margin-left: 2.50%;
+	}
+	.paragraph-2 {
+		width: 47%;
+		float: left;
+		margin-right: 15px;
+	}
+	.paragraph-3 {
+		clear: left;
+		margin-right: 2.50%;
+	}
+}
+@media (min-width: 992px) {
+	.content {
+		margin: auto;
+	}
+	.paragraph-1 {
+		width: 31%;
+		float: left;
+		margin-left: 1.73%;
+	}
+	.paragraph-2 {
+		width: 31%;
+		float: left;
+		margin-left: 1.73%;
+	}
+	.paragraph-3 {
+		width: 31%;
+		float: left;
+		margin-right: 1.73%;
+		margin-left: 1.73%;
+	}
+}
